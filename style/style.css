@@ -11184,7 +11184,7 @@ Header
   font-family: 'Roboto', sans-serif;
 }
     
-
+/*Bắt đầu banner*/
 .banner {
   background-image: linear-gradient(to bottom right, rgba(127, 127, 213, 0.63), rgba(134, 168, 231, 0.87), rgba(145, 234, 228, 0.64)), url("/img/310.jpg");
   background-size: cover;
@@ -11208,7 +11208,7 @@ Header
     .banner__title h3 {
       font-weight: 700;
       color: white; }
-
+/*Kết thúc banner*/
 
 /* ------------------------
 Footer 
@@ -11301,9 +11301,14 @@ section#list-volume {
     text-align: center;
     font-size: 2rem;
     font-weight: bold; }
+  section#list-volume .list-volume__sub-title {
+    text-align: center; }
+  section#list-volume .list-volume__button-back {
+    text-align: center;
+    margin-top: 1.3rem; }
   section#list-volume .list-volume__table {
-    margin-top: 5rem; }
+    margin-top: 5rem;
+    box-shadow: 0 3px 40px 0 rgba(71, 94, 170, 0.16); }
   section#list-volume .list-volume__thead {
     background-color: #4C7FE2;
     color: white; }
-
